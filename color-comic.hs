@@ -159,10 +159,8 @@ frameTwo = do
   
 main = do
     frameOne
-    stop
     clearScreen
     frameTwo
-    stop
     clearScreen
 
         
