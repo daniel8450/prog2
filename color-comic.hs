@@ -17,6 +17,7 @@ frameOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
+    stop
    
 --three
     setSGR [SetColor Foreground Vivid Red]
@@ -38,17 +39,20 @@ frameOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&"
+    stop
     
 --four
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
+    stop
     
     
 --five
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
+    stop
 
 --six
     setSGR [SetColor Foreground Vivid Red]
@@ -60,18 +64,21 @@ frameOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&"
+    stop
   
     
 --seven
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
+    stop
    
   
 --eight
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
+    stop
    
     
 main = do
