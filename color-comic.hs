@@ -5,6 +5,12 @@ colorOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&"
     setSGR[Reset]
     clearFromCursorToScreenEnd
 
