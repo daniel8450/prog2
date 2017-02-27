@@ -12,4 +12,5 @@ colorOne = do
     putStrLn "[][][][][][][][][][][][][][][][]"
     putStrLn "[][][][][][][][][][][][][][][][]"
     setSGR[Reset]
+    setCursorPosition 0 0
 main = colorOne
