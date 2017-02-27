@@ -2,10 +2,10 @@ import System.Console.ANSI
 
 color :: IO ()
 color = do
-    setSGR [SetColor Foreground Vivid Red RapidBlink]
-    setSGR [SetColor Background Vivid Blue RapidBlink]
+    color [SetColor Foreground Vivid Red RapidBlink]
+    color [SetColor Background Vivid Blue RapidBlink]
     putStr "Red-On-Blue"
-    setSGR [Reset]
+    color [Reset]
     putStr "White-On-Black"
 
-main = sgrExample
+main = color
