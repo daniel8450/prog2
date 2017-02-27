@@ -75,5 +75,6 @@ frameOne = do
     
 main = do
     frameOne
+    stop
 
         
