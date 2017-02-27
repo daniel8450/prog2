@@ -15,8 +15,8 @@ rowOne = do
 
 rowTwo :: IO ()
 rowTwo = do
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    setSGR [SetColor Foreground Vivid Red]
+    setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
    
     
@@ -48,8 +48,7 @@ rowFour = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
-    setSGR[Reset]
-    clearFromCursorToScreenEnd
+    
     
 rowFive :: IO ()
 rowFive = do
@@ -60,9 +59,16 @@ rowFive = do
 
 rowSix :: IO ()
 rowSix = do
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
-    putStrLn "&&&&&&&&&&&&&&&&"
+    setSGR [SetColor Foreground Vivid Red]
+    setSGR [SetColor Background Vivid Red]
+    putStr "&&&&"
+    setSGR [SetColor Foreground Vivid Cyan]
+    setSGR [SetColor Background Vivid Cyan]
+    putStr "&&&&&&&&"
+    setSGR [SetColor Foreground Vivid Red]
+    setSGR [SetColor Background Vivid Red]
+    putStrLn "&&&&"
+  
     
     
 rowSeven :: IO ()
