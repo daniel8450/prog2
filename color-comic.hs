@@ -7,7 +7,7 @@ stop = do
     
 frameOne :: IO ()
 frameOne = do
-    rowOne 
+    rowOne Red 
     stop
     rowTwo
     stop
@@ -25,9 +25,9 @@ frameOne = do
     stop
 
 rowOne :: IO ()
-rowOne = do
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
+rowOne c =
+    setSGR [SetColor Foreground Vivid c]
+    setSGR [SetColor Background Vivid c]
     putStrLn "&&&&&&&&&&&&&&&&"
     
 
