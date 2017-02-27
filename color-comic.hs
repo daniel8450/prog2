@@ -7,39 +7,17 @@ stop = do
     
 frameOne :: IO ()
 frameOne = do
-    rowOne Red 
-    stop
-    rowTwo
-    stop
-    rowThree
-    stop
-    rowFour
-    stop
-    rowFive
-    stop
-    rowSix
-    stop
-    rowSeven
-    stop
-    rowEight
-    stop
-
-rowOne :: IO ()
-rowOne c =
+--one
     setSGR [SetColor Foreground Vivid c]
     setSGR [SetColor Background Vivid c]
     putStrLn "&&&&&&&&&&&&&&&&"
     
-
-rowTwo :: IO ()
-rowTwo = do
+--two
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
    
-    
-rowThree :: IO ()
-rowThree = do
+--three
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStr "&&&"
@@ -60,23 +38,18 @@ rowThree = do
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&"
     
-  
-rowFour :: IO ()
-rowFour = do
+--four
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
     
     
-rowFive :: IO ()
-rowFive = do
+--five
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
 
-
-rowSix :: IO ()
-rowSix = do
+--six
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStr "&&&&"
@@ -88,16 +61,13 @@ rowSix = do
     putStrLn "&&&&"
   
     
-    
-rowSeven :: IO ()
-rowSeven = do
+--seven
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
    
   
-rowEight :: IO ()
-rowEight = do
+--eight
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
