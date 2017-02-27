@@ -21,6 +21,8 @@ rowThree = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStr "&&&&&&&&"
+     setSGR[Reset]
+    clearFromCursorToScreenEnd
     setSGR [SetColor Foreground Vivid Cyan]
     setSGR [SetColor Background Vivid Cyan]
     putStr "&&"
