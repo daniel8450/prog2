@@ -19,5 +19,5 @@ colorTwo = do
   --  putStrLn "[][][][][][][][][][][][][][][][]"
     setSGR[Reset]
     
-main = colorOne
-        colorTwo
+main = colorOne, colorTwo
+        
