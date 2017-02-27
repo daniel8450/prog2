@@ -4,7 +4,7 @@ color :: IO ()
 color = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Blue]
-    setSGR [SetBlinkSpeed RapidBlink]
+    setSGR [SetBlinkSpeed RapidBlink, "Rapid Blink"]
     putStr "Red-On-Blue"
     setSGR [Reset]
     putStr "White-On-Black"
