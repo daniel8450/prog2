@@ -23,7 +23,7 @@ rowThree = do
     putStr "&&&&&&&&"
     setSGR [SetColor Foreground Vivid Cyan]
     setSGR [SetColor Background Vivid Cyan]
-    putStr "&&&&&&&&"
+    putStr "&&"
     setSGR[Reset]
     clearFromCursorToScreenEnd
   
