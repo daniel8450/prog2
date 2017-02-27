@@ -40,7 +40,7 @@ rowThree = do
     
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
-    putStr "&&&&&"
+    putStrLn "&&&&&"
     
   
 rowFour :: IO ()
