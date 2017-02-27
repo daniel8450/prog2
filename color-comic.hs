@@ -8,8 +8,8 @@ stop = do
 frameOne :: IO ()
 frameOne = do
 --one
-    setSGR [SetColor Foreground Vivid c]
-    setSGR [SetColor Background Vivid c]
+    setSGR [SetColor Foreground Vivid Red]
+    setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
     
 --two
