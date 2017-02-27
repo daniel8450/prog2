@@ -5,6 +5,8 @@ colorOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "[][][][][][][][][][][][][][][][]"
+     setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
     putStrLn "[][][][][][][][][][][][][][][][]"
     putStrLn "[][][][][][][][][][][][][][][][]"
     putStrLn "[][][][][][][][][][][][][][][][]"
