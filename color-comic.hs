@@ -7,9 +7,21 @@ stop = do
     
 frameOne :: IO ()
 frameOne = do
-    rowOne
+    rowOne 
     stop
     rowTwo
+    stop
+    rowThree
+    stop
+    rowFour
+    stop
+    rowFive
+    stop
+    rowSix
+    stop
+    rowSeven
+    stop
+    rowEight
     stop
 
 rowOne :: IO ()
@@ -93,20 +105,5 @@ rowEight = do
     
 main = do
     frameOne
-  --  rowOne 
-   -- stop
-   -- rowTwo
-   -- stop
-    --rowThree
-    --stop
-    --rowFour
-    --stop
-    --rowFive
-    --stop
-    --rowSix
-    --stop
-    --rowSeven
-    --stop
-    --rowEight
-    --stop
+
         
