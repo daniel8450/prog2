@@ -6,6 +6,7 @@ colorOne = do
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
     setSGR[Reset]
+    clearFromCursorToScreenEnd
 
 colorTwo :: IO ()
 colorTwo = do
@@ -19,6 +20,7 @@ colorTwo = do
  --   putStrLn "[][][][][][][][][][][][][][][][]"
   --  putStrLn "[][][][][][][][][][][][][][][][]"
     setSGR[Reset]
+    clearFromCursorToScreenEnd
     
 main = do
     colorOne 
