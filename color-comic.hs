@@ -26,8 +26,6 @@ rowThree = do
     setSGR [SetColor Foreground Vivid Cyan]
     setSGR [SetColor Background Vivid Cyan]
     putStr "&&"
-    setSGR[Reset]
-    clearFromCursorToScreenEnd
   
 rowFour :: IO ()
 rowFour = do
