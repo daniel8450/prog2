@@ -11,6 +11,7 @@ frameOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
+    stop
     
 --two
     setSGR [SetColor Foreground Vivid Red]
