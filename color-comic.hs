@@ -5,15 +5,18 @@ colorOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "[][][][][][][][][][][][][][][][]"
-     setSGR [SetColor Foreground Vivid Blue]
+    
+colorTwo = do
+    setSGR [SetColor Foreground Vivid Blue]
     setSGR [SetColor Background Vivid Blue]
     putStrLn "[][][][][][][][][][][][][][][][]"
-    putStrLn "[][][][][][][][][][][][][][][][]"
-    putStrLn "[][][][][][][][][][][][][][][][]"
-    putStrLn "[][][][][][][][][][][][][][][][]"
-    putStrLn "[][][][][][][][][][][][][][][][]"
-    putStrLn "[][][][][][][][][][][][][][][][]"
-    putStrLn "[][][][][][][][][][][][][][][][]"
+    --putStrLn "[][][][][][][][][][][][][][][][]"
+  --  putStrLn "[][][][][][][][][][][][][][][][]"
+ --   putStrLn "[][][][][][][][][][][][][][][][]"
+--    putStrLn "[][][][][][][][][][][][][][][][]"
+ --   putStrLn "[][][][][][][][][][][][][][][][]"
+  --  putStrLn "[][][][][][][][][][][][][][][][]"
     setSGR[Reset]
     
 main = colorOne
+        colorTwo
