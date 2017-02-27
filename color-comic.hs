@@ -5,6 +5,12 @@ stop = do
     setSGR[Reset]
     clearFromCursorToScreenEnd
     
+frameOne :: IO ()
+frameOne = do
+    rowOne
+    stop
+    rowTwo
+    stop
 
 rowOne :: IO ()
 rowOne = do
@@ -86,20 +92,21 @@ rowEight = do
    
     
 main = do
-    rowOne 
-    stop
-    rowTwo
-    stop
-    rowThree
-    stop
-    rowFour
-    stop
-    rowFive
-    stop
-    rowSix
-    stop
-    rowSeven
-    stop
-    rowEight
-    stop
+    frameOne
+  --  rowOne 
+   -- stop
+   -- rowTwo
+   -- stop
+    --rowThree
+    --stop
+    --rowFour
+    --stop
+    --rowFive
+    --stop
+    --rowSix
+    --stop
+    --rowSeven
+    --stop
+    --rowEight
+    --stop
         
