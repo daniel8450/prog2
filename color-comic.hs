@@ -7,3 +7,5 @@ sgrExample = do
     putStr "Red-On-Blue"
     setSGR [Reset]
     putStr "White-On-Black"
+
+main = sgrExample
