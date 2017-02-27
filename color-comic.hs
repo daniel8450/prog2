@@ -4,13 +4,14 @@ colorOne :: IO ()
 colorOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
-    putStrLn "[][][][][][][][][][][][][][][][]"
+    putStrLn "&&&&&&&&&&&&&&&&"
+    setSGR[Reset]
 
 colorTwo :: IO ()
 colorTwo = do
     setSGR [SetColor Foreground Vivid Blue]
     setSGR [SetColor Background Vivid Blue]
-    putStrLn "[][][][][][][][][][][][][][][][]"
+    putStrLn "&&&&&&&&&&&&&&&&"
     --putStrLn "[][][][][][][][][][][][][][][][]"
   --  putStrLn "[][][][][][][][][][][][][][][][]"
  --   putStrLn "[][][][][][][][][][][][][][][][]"
