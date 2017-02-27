@@ -1,7 +1,7 @@
 import System.Console.ANSI
 
-color :: IO ()
-color = do
+colorOne :: IO ()
+colorOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Blue]
     setSGR [SetBlinkSpeed RapidBlink]
@@ -9,4 +9,4 @@ color = do
     setSGR [Reset]
     putStr "White-On-Black"
 
-main = color
+main = colorOne
