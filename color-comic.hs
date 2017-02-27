@@ -2,11 +2,10 @@ import System.Console.ANSI
 
 color :: IO ()
 color = do
-    color [SetColor Foreground Vivid Red]
-    color [SetColor Background Vivid Blue]
-     color [RapidBlink]
+    setSGR [SetColor Foreground Vivid Red RapidBlink]
+    setSGR [SetColor Background Vivid Blue RapidBlink]
     putStr "Red-On-Blue"
-    color [Reset]
+    setSGR [Reset]
     putStr "White-On-Black"
 
 main = color
