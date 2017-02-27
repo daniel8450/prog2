@@ -24,11 +24,23 @@ rowThree :: IO ()
 rowThree = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
-    putStr "&&&&&&&&"
+    putStr "&&&"
    
     setSGR [SetColor Foreground Vivid Cyan]
     setSGR [SetColor Background Vivid Cyan]
     putStr "&&"
+    
+    setSGR [SetColor Foreground Vivid Red]
+    setSGR [SetColor Background Vivid Red]
+    putStr "&&&&&"
+    
+    setSGR [SetColor Foreground Vivid Cyan]
+    setSGR [SetColor Background Vivid Cyan]
+    putStr "&&"
+    
+    setSGR [SetColor Foreground Vivid Red]
+    setSGR [SetColor Background Vivid Red]
+    putStr "&&&&&"
     
   
 rowFour :: IO ()
