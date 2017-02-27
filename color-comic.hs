@@ -161,6 +161,6 @@ main = do
     frameOne
     clearScreen
     frameTwo
-    clearScreen
+
 
         
