@@ -20,7 +20,10 @@ rowThree :: IO ()
 rowThree = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&"
+    setSGR [SetColor Foreground Vivid Cyan]
+    setSGR [SetColor Background Vivid Cyan]
+    putStr "&&&&&&&&"
     setSGR[Reset]
     clearFromCursorToScreenEnd
   
