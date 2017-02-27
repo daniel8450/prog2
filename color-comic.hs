@@ -5,13 +5,6 @@ colorOne = do
     setSGR [SetColor Foreground Vivid Red]
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
-    putStrLn "&&&&&&&&&&&&&&&&"
-    putStrLn "&&&&&&&&&&&&&&&&"
-    putStrLn "&&&&&&&&&&&&&&&&"
-    putStrLn "&&&&&&&&&&&&&&&&"
-    putStrLn "&&&&&&&&&&&&&&&&"
-    putStrLn "&&&&&&&&&&&&&&&&"
-    setSGR[Reset]
     clearFromCursorToScreenEnd
 
 colorTwo :: IO ()
@@ -25,7 +18,7 @@ colorTwo = do
 --    putStrLn "[][][][][][][][][][][][][][][][]"
  --   putStrLn "[][][][][][][][][][][][][][][][]"
   --  putStrLn "[][][][][][][][][][][][][][][][]"
-    setSGR[Reset]
+   -- setSGR[Reset]
     clearFromCursorToScreenEnd
     
 main = do
