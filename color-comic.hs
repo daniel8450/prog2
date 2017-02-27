@@ -2,7 +2,7 @@ import System.Console.ANSI
 
 colorOne :: IO ()
 colorOne = do
-    setSGR [SetColor Background Vivid Red]
+    setSGR [SetColor Foreground Vivid Red]
     putStrLn "[][][][][][][][][][][][][][][][]"
     putStrLn "[][][][][][][][][][][][][][][][]"
     putStrLn "[][][][][][][][][][][][][][][][]"
@@ -12,5 +12,5 @@ colorOne = do
     putStrLn "[][][][][][][][][][][][][][][][]"
     putStrLn "[][][][][][][][][][][][][][][][]"
     setSGR[Reset]
-    setCursorPosition 0 0
+    
 main = colorOne
