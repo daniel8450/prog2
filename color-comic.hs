@@ -159,7 +159,7 @@ frameTwo = do
   
 main = do
     frameOne
-    clearScreenCode "&&&&&&&&&&&&&&&&"
+    clearFromCursorToScreenBeginning
     frameTwo
 
 
