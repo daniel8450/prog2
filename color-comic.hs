@@ -163,20 +163,20 @@ frameTwo = do
 
 loop :: IO ()
 loop = do
+    stop
     frameOne
     pause
     clearFromCursorToScreenBeginning
-    stop
     frameTwo
     pause
     clearFromCursorToScreenBeginning
-    stop
     loop
     
     
    
   
 main = loop
+    
 
   
 
