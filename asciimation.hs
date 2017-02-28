@@ -479,6 +479,9 @@ loop = do
     screenSet
     frameTwo
     pause
+    screenSet
+    frameThree
+    pause
     loop
   
 main = loop
