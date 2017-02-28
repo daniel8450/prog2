@@ -9,8 +9,8 @@ stop = do
     
 screenSet :: IO ()
 screenSet = do
-    clearScreen
     setCursorPosition 0 0
+    clearScreen
     
 blue :: IO ()
 blue = do
@@ -36,7 +36,7 @@ blueLine = do
     
 pause :: IO ()
 pause = do
-    threadDelay 66667
+    threadDelay 67000
 
     
 frameOne :: IO ()
