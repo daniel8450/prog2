@@ -163,10 +163,11 @@ frameTwo = do
 
 loop :: IO ()
 loop = do
-    stop
+    setSGR[Reset]
     frameOne
     pause
     clearFromCursorToScreenBeginning
+    setSGR[Reset]
     frameTwo
     pause
     clearFromCursorToScreenBeginning
