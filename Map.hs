@@ -1,6 +1,6 @@
 --module Map
   --where
---import Data.List
+import Data.List
 
 rowOne :: [Char]
 rowOne =          ['_','_','_','_','_','_','_','_'] 
@@ -36,11 +36,16 @@ rowSixteen :: [Char]
 rowSixteen =      ['_','_','_','_','_','_','_','_'] 
 
 
-ind :: [Char] -> Int -> Int
-ind x n      | x !! n == '*'    = n
-             | otherwise        = n - 1
 
 
+indexTest :: [Char] -> Bool
+indexTest x = if x !! n == '*' then True
+              else False
+
+n = 8
+ind :: [Char] -> Int
+ind x = if indexTest x == True then n
+        else n - 1
 
         
               
@@ -81,7 +86,7 @@ main = do
      --let x = (up rowOne 8)
      -- print x
       printMap
-      let y = ind rowTwo 8
+      let y = indexTest rowTwo
       let z = y + 10
       print z
 
