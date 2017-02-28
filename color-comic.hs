@@ -168,6 +168,7 @@ loop = do
     clearFromCursorToScreenBeginning
     pause
     frameTwo
+    loop
     
     
    
