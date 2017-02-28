@@ -98,9 +98,9 @@ frameOne = do
     blue
     putStr"&&&&&&"
     red
-    putStr"\\\\"
+    putStr "\\\\"
     blue
-    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     
 loop :: IO ()
