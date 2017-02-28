@@ -30,7 +30,7 @@ frameOne = do
     
     setSGR [SetColor Foreground Vivid Cyan]
     setSGR [SetColor Background Vivid Blue]
-    putStr "'0x22'"
+    putStr " """ "
     
     
     
