@@ -32,13 +32,7 @@ up :: [Char] -> Int -> [Char]
 up x n = do
         drop n x
         x ++ ['_']
-        x ++ ['_']
-        x ++ ['_']
-        x ++ ['_']
-        x ++ ['_']
-        x ++ ['_']
-        x ++ ['_']
-        x ++ ['_']
+
         
 
 --down :: [Char] -> Int -> [Char]
