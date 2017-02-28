@@ -21,10 +21,10 @@ list =          ['_','_','_','_','_','_','_','_',
                  '_','_','_','_','_','_','_','_']
                  
               
-printIt :: ([Char] -> IO ()) -> (Char -> IO ())
+printIt :: [Char] -> IO ()
 printIt (x:xs) = 
-        print (take 8 x)
-        print (take 8 xs)
+        [print (take 8 x),
+        print (take 8 xs)]
 
                                                   
 up :: [Char] -> Int -> [Char]
