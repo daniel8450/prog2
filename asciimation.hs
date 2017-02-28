@@ -2612,6 +2612,9 @@ loop = do
     screenSet
     frameTwenty
     pause
-    loop
+    if (looping < 30) then looping++
+    else if (looping = 30) then end
+        else loop
+    
   
 main = loop
