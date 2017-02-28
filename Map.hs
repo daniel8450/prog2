@@ -22,7 +22,7 @@ list =          ['_','_','_','_','_','_','_','_',
                  
                  
 printIt :: [Char] -> Int -> [Char]
-printIt x n = print (take n x)
+printIt x n = take n x
                                           
 up :: [Char] -> Int -> [Char]
 up x n = drop n x
@@ -32,8 +32,9 @@ up x n = drop n x
 
 main = do
      let x = (up list 8)
+     let xs = (printIt 8)
      --print x
-     printIt (x 8)
+     print xs
  
      
   
