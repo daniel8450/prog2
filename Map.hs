@@ -1,10 +1,12 @@
-list :: [Char]
-list = [0..28]
+
 
 up :: Int -> Int
-up e = do
-  e + 8
-  [e] = '*'
+up e = e - 8
+
+list :: [Char]
+list = [0..28]
+[up e] = '*'
+
 
 main = do
-  print up 8
+  print list !! 8
