@@ -2207,7 +2207,7 @@ frameSeventeen = do
 frameEighteen :: IO ()
 frameEighteen = do
  --one
-     blue
+    blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
     putStr "..."
