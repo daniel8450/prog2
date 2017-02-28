@@ -92,7 +92,7 @@ frameOne = do
     stop
 --ten
     red
-    putStr "III" 
+    putStr "II" 
     blue
     putStr "&&&&&&&"
     red
@@ -102,13 +102,13 @@ frameOne = do
     stop
 --eleven
     red
-    putStr "IIII ---''IIII'''-."
+    putStr "III ---''IIII'''-."
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     --twelve
     red
-    putStr "IIIII"
+    putStr "IIII"
     blue
     putStr "&&&&&&&&&&&&"
     red
@@ -122,7 +122,7 @@ frameOne = do
     stop
     --thirteen
     red
-    putStr "IIIII"
+    putStr "IIII"
     blue
     putStr "&&&&&&"
     red
@@ -136,7 +136,7 @@ frameOne = do
     stop
     --fourteen
     red
-    putStr "IIII"
+    putStr "III"
     blue
     putStr "&"
     red
@@ -146,7 +146,7 @@ frameOne = do
     stop
     --fifteen
     red
-    putStr "III"
+    putStr "II"
     blue
     putStr "&&&&&&&&&"
     red
