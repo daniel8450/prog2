@@ -23,8 +23,8 @@ list =          ['_','_','_','_','_','_','_','_',
               
 printIt :: [Char] -> IO ()
 printIt (x:xs) = do
-          print x where x = x [0..8]
-          print (take 7 xs)
+          print x !! 0
+          print x !! 1
           printIt xs
        
 
