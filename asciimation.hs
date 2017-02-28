@@ -30,7 +30,7 @@ red = do
     
 pause :: IO ()
 pause = do
-    threadDelay 1.5e+7
+    threadDelay (1.5*log)+7
     
 frameOne :: IO ()
 frameOne = do
