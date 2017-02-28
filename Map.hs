@@ -60,10 +60,9 @@ up x n = do
 --down x n = [new_element : x | x <- [0..n]]
 
 main = do
-     let x = (up rowTwo 8)
+     let x = (up rowOne 8)
+      print x
       print rowTwo
-      print rowOne
-      print rowThree
 
  
      
