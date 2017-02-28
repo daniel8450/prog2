@@ -85,7 +85,7 @@ frameOne = do
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
     
-setSGR[Reset]
+    setSGR[Reset]
     
 frameTwo :: IO ()
 frameTwo = do
@@ -162,7 +162,7 @@ frameTwo = do
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
     
-setSGR[Reset]
+    setSGR[Reset]
 
 loop :: IO ()
 loop = do
