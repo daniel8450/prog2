@@ -1,4 +1,4 @@
-
+import System.Exit
 import System.Console.ANSI
 import Control.Concurrent
 
@@ -2619,7 +2619,7 @@ loop = do
     frameTwenty
     pause
     if looping < 30 then addOne looping
-    else if looping = 30 then end
+    else if looping == 30 then exitSuccess
     else loop
     
   
