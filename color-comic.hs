@@ -8,7 +8,7 @@ stop = do
     
 pause :: IO ()
 pause = do
-    threadDelay 1000
+    threadDelay 1000000
     
 frameOne :: IO ()
 frameOne = do
