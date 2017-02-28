@@ -46,7 +46,7 @@ frameOne = do
     blue
     putStr "&&&&&&"
     cyan
-    putStr " ... "
+    putStr " ooo "
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -54,7 +54,7 @@ frameOne = do
     blue
     putStr "&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -62,7 +62,7 @@ frameOne = do
     blue
     putStr "&&&&&&"
     cyan
-    putStr " ... "
+    putStr " ooo "
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -76,7 +76,7 @@ frameOne = do
     blue
     putStr "&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -88,7 +88,7 @@ frameOne = do
     blue
     putStr "&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -102,7 +102,7 @@ frameOne = do
     blue
     putStr "&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -177,7 +177,7 @@ frameTwo = do
     blue
     putStr "&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -191,7 +191,7 @@ frameTwo = do
     blue
     putStr "&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -199,7 +199,7 @@ frameTwo = do
     blue
     putStr "&&&&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -207,7 +207,7 @@ frameTwo = do
     blue
     putStr "&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -319,7 +319,7 @@ frameThree = do
     blue
     putStr "&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -327,7 +327,7 @@ frameThree = do
     blue
     putStr "&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -335,7 +335,7 @@ frameThree = do
     blue
     putStr "&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -446,7 +446,7 @@ frameFour = do
     blue
     putStr "&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -454,7 +454,7 @@ frameFour = do
     blue
     putStr "&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -585,7 +585,7 @@ frameFive = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -598,7 +598,7 @@ frameFive = do
     blue
     putStr "&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -614,7 +614,7 @@ frameFive = do
     blue
     putStr "&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -707,7 +707,7 @@ frameSix = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -715,7 +715,7 @@ frameSix = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -723,7 +723,7 @@ frameSix = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -833,7 +833,7 @@ frameSeven = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -841,7 +841,7 @@ frameSeven = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -849,7 +849,7 @@ frameSeven = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -963,7 +963,7 @@ frameEight = do
     blue
     putStr "&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1211,7 +1211,7 @@ frameTen = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1223,7 +1223,7 @@ frameTen = do
     blue
     putStr "&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1239,7 +1239,7 @@ frameTen = do
     blue
     putStr "&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1332,7 +1332,7 @@ frameEleven = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1340,7 +1340,7 @@ frameEleven = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1348,7 +1348,7 @@ frameEleven = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1458,7 +1458,7 @@ frameTwelve = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1466,7 +1466,7 @@ frameTwelve = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1474,7 +1474,7 @@ frameTwelve = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1588,7 +1588,7 @@ frameThirteen= do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1596,7 +1596,7 @@ frameThirteen= do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -1841,7 +1841,7 @@ frameFifteen= do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&"
 --nine
@@ -1852,7 +1852,7 @@ frameFifteen= do
     blue
     putStr "&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&"
     stop
@@ -1868,7 +1868,7 @@ frameFifteen= do
     blue
     putStr "&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&"
     stop
@@ -1961,21 +1961,21 @@ frameSixteen = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&"
 --six
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&"
 --seven
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&"
 --eight
@@ -2083,21 +2083,21 @@ frameSeventeen = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&"
 --three
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "....."
+    putStr "ooooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&"
 --four
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&"
 --five
@@ -2210,7 +2210,7 @@ frameEighteen = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
-    putStr "..."
+    putStr "ooo"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&"
   --two  
