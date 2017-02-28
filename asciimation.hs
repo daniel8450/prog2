@@ -1844,10 +1844,10 @@ frameFifteen= do
     cyan
     putStr "..."
     blue
-    putStr "&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&"
 --nine
     blue
-    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     red
     putStr "II"
     blue
@@ -1855,7 +1855,7 @@ frameFifteen= do
     cyan
     putStr "....."
     blue
-    putStrLn "&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&"
     stop
 --ten
     blue
