@@ -102,7 +102,7 @@ frameOne = do
     stop
 --eleven
     red
-    putStr "IIII ---"""IIII"""-."
+    putStr "IIII ---'''IIII'''-."
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
