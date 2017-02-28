@@ -4,7 +4,7 @@ import Control.Concurrent
 
 stop :: IO ()
 stop = do
-    setSGR[Reset]
+   
     clearFromCursorToScreenEnd
     
 screenSet :: IO ()
