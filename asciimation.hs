@@ -94,7 +94,7 @@ frameOne = do
     red
     putStr "II" 
     blue
-    putStr "&&&&&&&"
+    putStr "&&&&&&&&"
     red
     putStr "III"
     blue
@@ -104,7 +104,7 @@ frameOne = do
     red
     putStr "III ---''IIII'''-."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     --twelve
     red
@@ -118,7 +118,7 @@ frameOne = do
     red
     putStr "\\"
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     --thirteen
     red
@@ -132,7 +132,7 @@ frameOne = do
     red
     putStr "\\"
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     --fourteen
     red
@@ -142,7 +142,7 @@ frameOne = do
     red
     putStr "--.....III......O"
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     --fifteen
     red
@@ -152,7 +152,7 @@ frameOne = do
     red
     putStr "II"
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     --16
     blue
