@@ -1,9 +1,10 @@
 #!/bin/bash
 
+./README.md
+
 echo
 echo "///color-comic///"
 ./color-comic
-exit
 
 echo
 echo "///asciimation///"
