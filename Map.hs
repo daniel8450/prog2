@@ -25,7 +25,9 @@ printIt :: [Char] -> IO ()
 printIt (x:xs) = do
           print x
           print (take 7 xs)
-          printIt xs
+          print (take 7 xs)
+          print (take 7 xs)
+         -- printIt xs
        
 
                                                   
