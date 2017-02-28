@@ -42,9 +42,8 @@ indexTest :: [Char] -> Bool
 indexTest x = if x !! n == '*' then True
               else False
 
-n = 8
-ind :: [Char] -> Int
-ind x = if indexTest x == True then n
+ind :: [Char] -> Int -> Int
+ind x n = if indexTest x == True then n
         else n - 1
 
         
@@ -87,7 +86,7 @@ main = do
      -- print x
       printMap
       let y = indexTest rowTwo
-      let z = y + 10
+      let z = ind y 8
       print z
 
  
