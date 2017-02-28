@@ -1844,7 +1844,7 @@ frameFifteen= do
     cyan
     putStr "..."
     blue
-    putStrLn "&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&"
 --nine
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
