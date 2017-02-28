@@ -90,6 +90,7 @@ main = do
       printMap
       putStrLn "============================"
       print y  
+      print rowOne
 
  
      
