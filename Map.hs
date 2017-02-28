@@ -28,7 +28,8 @@ up x n = drop n x
 
 main = do
      up list 8
-     print (list !! 5)
+     let x = list !! 5
+     print x
  
      
   
