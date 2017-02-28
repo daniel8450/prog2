@@ -36,8 +36,12 @@ rowSixteen :: [Char]
 rowSixteen =      ['_','_','_','_','_','_','_','_'] 
 
 
---index :: [Char] -> Int
---index x | (x !! n) == '*' = n
+index :: [Char] -> Int
+y = 0
+n = 8
+index < 0 = 0
+index x = if ((x !! n) == '*') then y = n
+          else y = n - 1
 
 
         
