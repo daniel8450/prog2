@@ -1822,7 +1822,7 @@ frameFourteen= do
     blueLine
     
  -- ========================================================================
-frameFiftteen :: IO ()
+frameFifteen :: IO ()
 frameFifteen= do
  --one
     blueLine
