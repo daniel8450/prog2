@@ -92,13 +92,13 @@ frameOne = do
     stop
 --ten
     blue
-    putStr "&&&"
+    putStr "&&&&&&"
     red
-    putStr "\\" 
+    putStr "\\|" 
     blue
     putStr"&&&&&&"
     red
-    putStr "\\\\"
+    putStr "\\\|"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
