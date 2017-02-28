@@ -447,9 +447,9 @@ frameFour = do
     blue
     putStr "&&&&&&&&"
     cyan
-    putStr "...."
+    putStr "....."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
   --two  
     blue
