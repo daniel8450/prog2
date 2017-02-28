@@ -9,8 +9,8 @@ stop = do
     
 screenSet :: IO ()
 screenSet = do
-    clearFromCursorToScreenBeginning
-    --setCursorPosition 0 0
+    clearScreen
+    setCursorPosition 0 0
     
 blue :: IO ()
 blue = do
