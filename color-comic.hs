@@ -165,11 +165,11 @@ loop :: IO ()
 loop = do
     frameOne
     pause
-    stop
     clearFromCursorToScreenBeginning
+    clearFromCursorToScreenEnd
     frameTwo
     pause
-    stop
+    clearFromCursorToScreenEnd
     clearFromCursorToScreenBeginning
     loop
     
