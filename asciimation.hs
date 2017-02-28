@@ -84,7 +84,7 @@ frameOne = do
     stop
 --nine
     blue
-    putStr "&&&&&&&&&&"
+    putStr "&&&&&&&&&"
     red
     putStr "II"
     blue
@@ -94,7 +94,7 @@ frameOne = do
     red
     putStr "II" 
     blue
-    putStr "&&&&&&&&"
+    putStr "&&&&&&&"
     red
     putStr "III"
     blue
