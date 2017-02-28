@@ -79,8 +79,9 @@ frameOne = do
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
-clearFromCursorToScreenBeginning
+
 frameTwo
+
     
 frameTwo :: IO ()
 frameTwo = do
@@ -156,11 +157,14 @@ frameTwo = do
     setSGR [SetColor Background Vivid Cyan]
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
-clearFromCursorToScreenBeginning
+
 frameOne
    
   
-main = frameOne
+main = do
+    frameOne
+    clearFromCursorToScreenBeginning
+    frameTwo
 
 
         
