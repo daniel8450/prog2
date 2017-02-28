@@ -64,7 +64,20 @@ up x n = do
 --down :: [Char] -> Int -> [Char]
 --down x n = [new_element : x | x <- [0..n]]
 
-printMap :: IO ()
+
+
+main = do
+     --let x = (up rowOne 8)
+     -- print x
+      printMap
+      putStrLn "============================"
+      let y = up rowOne 4
+      printMap
+      putStrLn "============================"
+      print y  
+      print rowOne
+
+ printMap :: IO ()
 printMap = do
         print rowOne
         print rowTwo
@@ -82,18 +95,5 @@ printMap = do
         print rowFourteen
         print rowFifteen
         print rowSixteen
-
-main = do
-     --let x = (up rowOne 8)
-     -- print x
-      printMap
-      putStrLn "============================"
-      let y = up rowOne 4
-      printMap
-      putStrLn "============================"
-      print y  
-      print rowOne
-
- 
      
   
