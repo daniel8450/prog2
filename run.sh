@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./README.md
+view README.md
 
 echo
 echo "///color-comic///"
