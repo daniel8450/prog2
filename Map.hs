@@ -1,5 +1,5 @@
-module Map
-  where
+--module Map
+  --where
   
 list :: [Char]
 let list = ['_','_','_','_','_','_','_','_',
