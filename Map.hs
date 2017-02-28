@@ -40,7 +40,7 @@ up x n = do
 
 main = do
      let x = (up list 8)
-     putStrLn x
+     putStr x
 
  
      
