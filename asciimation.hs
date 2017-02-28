@@ -584,11 +584,11 @@ frameFive = do
     blueLine
 --eight
     blue
-    putStr "&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
     putStr "..."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     
 --nine
