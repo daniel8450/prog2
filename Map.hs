@@ -24,7 +24,8 @@ list =          ['_','_','_','_','_','_','_','_',
 printIt :: [Char] -> IO ()
 printIt (x:xs) = do
           print x
-          printIt (take 7 xs)
+          print (take 7 xs)
+          printIt xs
        
 
                                                   
