@@ -83,16 +83,7 @@ up x n = do
 
 
 
-main = do
-     --let x = (up rowOne 8)
-     -- print x
-      printMap
-      putStrLn "============================"
-      let y = up rowOne 4
-      printMap
-      putStrLn "============================"
-      print y  
-      print rowOne
+
 
 
      
