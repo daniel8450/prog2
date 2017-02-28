@@ -4,7 +4,7 @@ import Control.Concurrent
 
 stop :: IO ()
 stop = do
-   
+    setSGR[Reset]
     clearFromCursorToScreenEnd
     
 screenSet :: IO ()
@@ -30,7 +30,8 @@ red = do
     
 pause :: IO ()
 pause = do
-    threadDelay 66666
+    threadDelay 1000000
+    --66666
     
 frameOne :: IO ()
 frameOne = do
