@@ -5,6 +5,10 @@ stop :: IO ()
 stop = do
     setSGR[Reset]
     clearFromCursorToScreenEnd
+
+stopIt :: IO ()
+    setSGR[Reset]
+    putStr " "
     
 pause :: IO ()
 pause = do
@@ -85,7 +89,7 @@ frameOne = do
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
     
-    setSGR[Reset]
+    stopIt
     
 frameTwo :: IO ()
 frameTwo = do
@@ -162,7 +166,7 @@ frameTwo = do
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
     
-    setSGR[Reset]
+    stopIt
 
 loop :: IO ()
 loop = do
