@@ -24,6 +24,16 @@ frameOne = do
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     
+    setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
+    putStr "&&&&&&"
+    
+    setSGR [SetColor Foreground Vivid Cyan]
+    setSGR [SetColor Background Vivid Blue]
+    putStr "0x22"
+    
+    
+    
 
     
 loop :: IO ()
