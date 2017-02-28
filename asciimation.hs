@@ -5,7 +5,8 @@ import Control.Concurrent
 stop :: IO ()
 stop = do
     setSGR[Reset]
-    clearFromCursorToScreenEnd
+    --clearFromCursorToScreenEnd
+    clearScreen
     
 screenSet :: IO ()
 screenSet = do
