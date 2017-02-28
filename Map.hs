@@ -38,9 +38,9 @@ rowSixteen =      ['_','_','_','_','_','_','_','_']
 
 ind :: [Char] -> Int
 n = 8
-ind < 0 = 0
 ind x = if (x !! n) == '*' then n
           else n - 1
+          where n >= 0 && n <= 8
 
 
         
