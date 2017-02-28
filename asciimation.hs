@@ -231,7 +231,7 @@ frameTwo = do
     stop
 --five
     blue
-    putStr "&&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&&&&"
     cyan
     putStr "..."
     blue
@@ -247,17 +247,13 @@ frameTwo = do
     stop
 --seven
     blue
-    putStr "&&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&&&&"
     cyan
     putStr "..."
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --eight
-    blue
-    putStr "&&&&&&&&&&&&&&&&&"
-    cyan
-    putStr "..."
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -266,10 +262,6 @@ frameTwo = do
     putStr "&&&&&&&&&"
     red
     putStr "II"
-    blue
-    putStr "&&&&&"
-    cyan
-    putStr "....."
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -280,10 +272,6 @@ frameTwo = do
     putStr "&&&&&&&"
     red
     putStr "III"
-    blue
-    putStr "&&&&&"
-    cyan
-    putStr "..."
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
