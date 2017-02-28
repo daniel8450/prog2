@@ -34,11 +34,11 @@ blueLine = do
     
 pause :: IO ()
 pause = do
-    threadDelay 0
+    threadDelay 50000
 
     
 frameOne :: IO ()
-frameOne = do
+frameOne = 
  --one
     blueLine
   --two  
