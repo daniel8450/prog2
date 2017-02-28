@@ -2611,7 +2611,6 @@ loop = do
     screenSet
     frameTwenty
     pause
-    screenSet
     loop
     
   
