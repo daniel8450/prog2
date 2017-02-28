@@ -21,7 +21,7 @@ list =          ['_','_','_','_','_','_','_','_',
                  '_','_','_','_','_','_','_','_']
                  
                  
-printIt :: [Char] -> IO ()
+printIt :: [Char] -> [Char]
 printIt x = printIt (print x)
                                           
 up :: [Char] -> Int -> [Char]
