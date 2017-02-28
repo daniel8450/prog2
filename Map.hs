@@ -26,7 +26,7 @@ up x n = [tail x | up x n <- [0..n]]
 --down x n = [new_element : x | x <- [0..n]]
 
 main = do
-     up list 8
+     up (list 8)
      print (list !! 5)
  
      
