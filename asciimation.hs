@@ -445,14 +445,20 @@ frameFour :: IO ()
 frameFour = do
  --one
     blue
-    putStr "&&&&&&"
+    putStr "&&&&&&&&"
+    cyan
+    putStr "...."
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+  --two  
+    blue
+    putStr "&&&&&&&&&"
     cyan
     putStr "..."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
-  --two  
-    blueLine
 --three
     blueLine
 --four
