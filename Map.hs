@@ -37,7 +37,7 @@ rowSixteen =      ['_','_','_','_','_','_','_','_']
 
 
 ind :: [Char] -> Int -> Int
-ind (x:xs) n | x !! n == '*'    = n
+ind x n      | x !! n == '*'    = n
              | otherwise        = n - 1
 
 
