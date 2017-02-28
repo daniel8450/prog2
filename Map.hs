@@ -40,8 +40,8 @@ index :: [Char] -> Int
 y = 0
 n = 8
 index < 0 = 0
-index x = if (x !! n) == '*' then y = n
-          else y = n - 1
+index x = if (x !! n) == '*' then = n
+          else = n - 1
 
 
         
