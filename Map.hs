@@ -1,6 +1,8 @@
 --module Map
   --where
   
+import Data.List
+ 
 list :: [Char]
 let list = ['_','_','_','_','_','_','_','_',
            '_','_','_','_','_','*','_','_',
