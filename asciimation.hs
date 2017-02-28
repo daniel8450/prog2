@@ -86,7 +86,7 @@ frameOne = do
     blue
     putStr "&&&&&&&&"
     red
-    putStr (Num Char) [32]
+    putStr "\\"
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -98,7 +98,7 @@ frameOne = do
     blue
     putStr"&&&&&&"
     red
-    putStr"\\"
+    putStr"\\\\"
 
     
 loop :: IO ()
