@@ -171,12 +171,8 @@ loop = do
     
    
   
-main = do
-    loop
-    loop
-    loop
-    loop
-    loop
+main = loop
+
   
 
 
