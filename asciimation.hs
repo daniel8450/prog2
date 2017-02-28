@@ -132,7 +132,7 @@ frameOne = do
     red
     putStr "\\"
     blue
-    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 
 loop :: IO ()
