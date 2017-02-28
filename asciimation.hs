@@ -2549,6 +2549,12 @@ frameTwenty = do
     blueLine
     blueLine
     blueLine
+    
+looping :: Int
+looping = 0
+
+addOne :: Int -> Int
+addOne x = x + 1
 
 loop :: IO ()
 loop = do
@@ -2612,9 +2618,9 @@ loop = do
     screenSet
     frameTwenty
     pause
-    if (looping < 30) then looping++
-    else if (looping = 30) then end
-        else loop
+    if looping < 30 then addOne looping
+    else if looping = 30 then end
+    else loop
     
   
 main = loop
