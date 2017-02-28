@@ -8,8 +8,8 @@ stop = do
     
 screenSet :: IO ()
 screenSet = do
+    clearFromCursorToScreenBeginning
     setCursorPosition 0 0
-    clearScreen
     
 blue :: IO ()
 blue = do
@@ -2611,6 +2611,7 @@ loop = do
     screenSet
     frameTwenty
     pause
+    screenSet
     loop
     
   
