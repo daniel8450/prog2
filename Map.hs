@@ -37,9 +37,9 @@ rowSixteen =      ['_','_','_','_','_','_','_','_']
 
 y = 0
 index :: [Char] -> Int
-index x = if (x !! n == '*') then = n
+index x = if (x !! n == '*') then y = n
         where n <- [0..128]
-        else = 0
+        else y = 0
         
               
 --printIt :: [Char] -> IO ()
