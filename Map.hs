@@ -88,6 +88,8 @@ main = do
       putStrLn "============================"
       let y = up rowOne 4
       printMap
+      putStrLn "============================"
+      print y  
 
  
      
