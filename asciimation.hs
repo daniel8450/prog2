@@ -1840,14 +1840,14 @@ frameFifteen= do
     blueLine
 --eight
     blue
-    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
     putStr "..."
     blue
-    putStrLn "&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&"
 --nine
     blue
-    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     red
     putStr "II"
     blue
