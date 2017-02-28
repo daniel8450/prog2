@@ -27,7 +27,7 @@ up x n = drop n x
 --down x n = [new_element : x | x <- [0..n]]
 
 main = do
-     let x = (up list 8) !! 10
+     let x = (up list 8)
      print x
  
      
