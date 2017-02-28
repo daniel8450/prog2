@@ -36,6 +36,8 @@ frameOne = do
     setSGR [SetColor Background Vivid Blue]
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     
+    stop
+    
     
     
 
