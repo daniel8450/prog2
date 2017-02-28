@@ -5,7 +5,7 @@ up e = e - 8
 
 list :: [Char]
 list = [0..28]
-[up 16] = '*'
+list [up 16] = '*'
 
 
 main = do
