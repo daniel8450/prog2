@@ -35,11 +35,13 @@ rowFifteen =      ['_','_','_','_','_','_','_','_']
 rowSixteen :: [Char]
 rowSixteen =      ['_','_','_','_','_','_','_','_'] 
 
-y = 0
+
 index :: [Char] -> Int
 index x | (x !! n) == '*' = n
+        | n = n + 1
+        | n <= 8
         | otherwise       = 0
-        where n = n + 1
+
         
               
 --printIt :: [Char] -> IO ()
