@@ -1970,7 +1970,7 @@ frameSixteen = do
     cyan
     putStr "....."
     blue
-    putStrLn "&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&"
 --seven
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
