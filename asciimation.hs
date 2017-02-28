@@ -85,7 +85,7 @@ frameOne = do
 --nine
     blue
     putStr "&&&&&&&&&&&&&&&&&&&"
-    yellow
+    red
     putStr "\\"
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
