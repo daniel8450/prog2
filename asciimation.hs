@@ -2122,6 +2122,9 @@ loop = do
     screenSet
     frameFifteen
     pause
+    screenSet
+    frameSixteen
+    pause
     loop
   
-main = frameSixteen
+main = loop
