@@ -169,7 +169,7 @@ loop = do
     clearFromCursorToScreenBeginning
     frameTwo
     pause
-     clearFromCursorToLineEnd
+    clearFromCursorToLineEnd
     clearFromCursorToScreenBeginning
     loop
     
