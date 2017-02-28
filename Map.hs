@@ -3,7 +3,7 @@
 import Data.List
 
 list :: [Char]
-list = unlines $ ['_','_','_','_','_','_','_','_',
+list =          ['_','_','_','_','_','_','_','_'++\n++, 
                  '_','_','_','_','_','*','_','_',
                  '_','_','_','_','_','_','_','_',
                  '_','_','_','_','_','_','_','_',
@@ -19,6 +19,10 @@ list = unlines $ ['_','_','_','_','_','_','_','_',
                  '_','_','_','_','_','_','_','_',
                  '_','_','_','_','_','_','_','_',
                  '_','_','_','_','_','_','_','_']
+                 
+                 
+printIt :: [Char] -> Int -> [Char]
+printIt x n = [print (take n x) | n <- [0..8]]
                                           
 up :: [Char] -> Int -> [Char]
 up x n = drop n x
@@ -27,8 +31,9 @@ up x n = drop n x
 --down x n = [new_element : x | x <- [0..n]]
 
 main = do
-     let x = (up list 8)
-     putStr list
+     --let x = (up list 8)
+     --print x
+     printIt ((up list 8) 8)
  
      
   
