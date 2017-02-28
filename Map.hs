@@ -77,7 +77,7 @@ main = do
       print y  
       print rowOne
 
- printMap :: IO ()
+printMap :: IO ()
 printMap = do
         print rowOne
         print rowTwo
