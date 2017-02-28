@@ -21,7 +21,7 @@ list =          ['_','_','_','_','_','_','_','_',
                  '_','_','_','_','_','_','_','_']
                  
               
-printIt :: [Char] -> IO ()
+printIt :: ([Char] -> [Char]) -> IO ()
 printIt (x:xs) = 
         print (take 8 x)
         print (take 8 xs)
