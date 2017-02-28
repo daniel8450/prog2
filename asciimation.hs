@@ -102,7 +102,7 @@ frameOne = do
     stop
 --eleven
     red
-    putStr "IIII ---'''IIII'''-."
+    putStr "IIII ---''IIII'''-."
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
@@ -110,7 +110,7 @@ frameOne = do
     red
     putStr "IIIII"
     blue
-    putStr "&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&"
     red
     putStr "o"
     blue
