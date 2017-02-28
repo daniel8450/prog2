@@ -166,11 +166,11 @@ loop = do
     frameOne
     pause
     clearFromCursorToLineEnd
-    clearFromCursorToScreenBeginning
+   -- clearFromCursorToScreenBeginning
     frameTwo
     pause
     clearFromCursorToLineEnd
-    clearFromCursorToScreenBeginning
+  --  clearFromCursorToScreenBeginning
     loop
     
     
