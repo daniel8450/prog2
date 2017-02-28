@@ -36,10 +36,10 @@ rowSixteen :: [Char]
 rowSixteen =      ['_','_','_','_','_','_','_','_'] 
 
 
-index :: [Char] -> Int
+ind :: [Char] -> Int
 n = 8
-index < 0 = 0
-index x = if (x !! n) == '*' then n
+ind < 0 = 0
+ind x = if (x !! n) == '*' then n
           else n - 1
 
 
@@ -82,7 +82,7 @@ main = do
      --let x = (up rowOne 8)
      -- print x
       printMap
-      let y = index rowTwo
+      let y = ind rowTwo
       print y
 
  
