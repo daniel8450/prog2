@@ -5,10 +5,6 @@ stop :: IO ()
 stop = do
     setSGR[Reset]
     clearFromCursorToScreenEnd
-
-stopIt :: IO ()
-    setSGR[Reset]
-    putStr "_"
     
 pause :: IO ()
 pause = do
@@ -88,9 +84,7 @@ frameOne = do
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
-    
-    stopIt
-    
+
 frameTwo :: IO ()
 frameTwo = do
 --one
@@ -165,17 +159,17 @@ frameTwo = do
     setSGR [SetColor Background Vivid Cyan]
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
-    
-    stopIt
 
 loop :: IO ()
 loop = do
     frameOne
     pause
     clearFromCursorToScreenBeginning
+    setCursorPosition 0 0
     frameTwo
     pause
     clearFromCursorToScreenBeginning
+    setCursorPosition 0 0
     loop
     
     
