@@ -47,7 +47,24 @@ ind x n = if indexTest x n == True then n
         else n - 1
 
         
-              
+printMap :: IO ()
+printMap = do
+        print rowOne
+        print rowTwo
+        print rowThree
+        print rowFour
+        print rowFive
+        print rowSix
+        print rowSeven
+        print rowEight
+        print rowNine
+        print rowTen
+        print rowEleven
+        print rowTwelve
+        print rowThirteen
+        print rowFourteen
+        print rowFifteen
+        print rowSixteen             
 
 
 
@@ -57,7 +74,7 @@ ind x n = if indexTest x n == True then n
 up :: [Char] -> Int -> [Char]
 up x n = do
         drop n x
-      --  x ++ ['_']
+        x ++ ['_'] * 8
 
         
 
@@ -77,23 +94,6 @@ main = do
       print y  
       print rowOne
 
-printMap :: IO ()
-printMap = do
-        print rowOne
-        print rowTwo
-        print rowThree
-        print rowFour
-        print rowFive
-        print rowSix
-        print rowSeven
-        print rowEight
-        print rowNine
-        print rowTen
-        print rowEleven
-        print rowTwelve
-        print rowThirteen
-        print rowFourteen
-        print rowFifteen
-        print rowSixteen
+
      
   
