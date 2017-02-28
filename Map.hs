@@ -60,7 +60,7 @@ up x n = do
 --down x n = [new_element : x | x <- [0..n]]
 
 main = do
-     let x = (up list 8)
+     let x = (up rowTwo 8)
      let z = index rowTwo
      print z
 
