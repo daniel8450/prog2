@@ -18,12 +18,12 @@ pause = do
     
 frameOne :: IO ()
 frameOne = do
---one
+ --one
     setSGR [SetColor Foreground Vivid Blue]
     setSGR [SetColor Background Vivid Blue]
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
-    
+  --two  
     setSGR [SetColor Foreground Vivid Blue]
     setSGR [SetColor Background Vivid Blue]
     putStr "&&&&&&"
@@ -34,12 +34,34 @@ frameOne = do
      
     setSGR [SetColor Foreground Vivid Blue]
     setSGR [SetColor Background Vivid Blue]
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
-    
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
+--three
+    setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
+    putStr "&&&&&"
     
+    setSGR [SetColor Foreground Vivid Cyan]
+    setSGR [SetColor Background Vivid Blue]
+    putStr "....."
     
+    setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
+    putStr "&&&&&"
     
+    setSGR [SetColor Foreground Vivid Cyan]
+    setSGR [SetColor Background Vivid Blue]
+    putStr " ... "
+    
+    setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
 
     
 loop :: IO ()
