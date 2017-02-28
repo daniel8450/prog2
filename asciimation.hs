@@ -30,7 +30,11 @@ frameOne = do
     
     setSGR [SetColor Foreground Vivid Cyan]
     setSGR [SetColor Background Vivid Blue]
-    putStr " """ "
+    putStr " ... "
+     
+    setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     
     
     
