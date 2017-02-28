@@ -80,8 +80,6 @@ frameOne = do
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
 
-frameTwo
-
     
 frameTwo :: IO ()
 frameTwo = do
@@ -158,13 +156,17 @@ frameTwo = do
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
 
-frameOne
-   
-  
-main = do
+loop :: IO ()
+loop = do
     frameOne
     clearFromCursorToScreenBeginning
     frameTwo
+    loop
+    
+   
+  
+main = loop
+  
 
 
         
