@@ -1,5 +1,6 @@
 --module Map
   --where
+import Data.List
 
 list :: [Char]
 list = ['_','_','_','_','_','_','_','_',
@@ -20,7 +21,7 @@ list = ['_','_','_','_','_','_','_','_',
            '_','_','_','_','_','_','_','_']
                                           
 up :: [Char] -> Integer -> [Char]
-up x n = [tail x | up x n <- [0..n]]
+up x n = drop n x
 
 --down :: [Char] -> Int -> [Char]
 --down x n = [new_element : x | x <- [0..n]]
