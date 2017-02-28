@@ -1,11 +1,11 @@
---module Map
-  --where
+module Map
+  where
 import Data.List
 
 rowOne :: [Char]
 rowOne =          ['_','_','_','_','_','_','_','_'] 
 rowTwo :: [Char]
-rowTwo =          ['1','2','3','_','_','*','_','_'] 
+rowTwo =          ['_','_','_','_','_','_','_','_'] 
 rowThree :: [Char]
 rowThree =        ['_','_','_','_','_','_','_','_'] 
 rowFour :: [Char]
@@ -17,7 +17,7 @@ rowSix =          ['_','_','_','_','_','_','_','_']
 rowSeven :: [Char]
 rowSeven =        ['_','_','_','_','_','_','_','_'] 
 rowEight :: [Char]
-rowEight =        ['_','_','_','_','_','_','_','_'] 
+rowEight =        ['_','_','_','*','_','_','_','_'] 
 rowNine :: [Char]
 rowNine =         ['_','_','_','_','_','_','_','_'] 
 rowTen :: [Char]
@@ -74,7 +74,7 @@ printMap = do
 up :: [Char] -> Int -> [Char]
 up x n = do
         drop n x
-        x ++ ['_'] * 8
+        --x ++ ['_'] * 8
 
         
 
