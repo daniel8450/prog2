@@ -36,7 +36,7 @@ blueLine = do
     
 pause :: IO ()
 pause = do
-    threadDelay 1000000
+    threadDelay 142857
 
     
 frameOne :: IO ()
@@ -962,22 +962,22 @@ loop :: IO ()
 loop = do
     screenSet
     frameOne
-   -- pause
+    pause
     screenSet
     frameTwo
- --   pause
+    pause
     screenSet
     frameThree
- --   pause
+    pause
     screenSet
     frameFour
-  --  pause
+    pause
     screenSet
     frameFive
- --   pause
+    pause
     screenSet
     frameSix
- --   pause
+    pause
     screenSet
     frameSeven
     pause
