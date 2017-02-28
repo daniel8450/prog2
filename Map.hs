@@ -21,8 +21,11 @@ list =          ['_','_','_','_','_','_','_','_',
                  '_','_','_','_','_','_','_','_']
                  
                  
-printIt :: [Char] -> Int -> [Char]
-printIt x n = take n x
+takeIt :: [Char] -> Int -> [Char]
+takeIt x n = take n x
+
+printIt :: [Char] -> [Char]
+printIt x = printIt (print x)
                                           
 up :: [Char] -> Int -> [Char]
 up x n = drop n x
@@ -32,9 +35,10 @@ up x n = drop n x
 
 main = do
      let x = (up list 8)
-     let xs = (printIt x 8)
+     let xs = (takeIt x 8)
+     printIt xs
      --print x
-     print xs
+     --print xs
  
      
   
