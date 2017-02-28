@@ -35,7 +35,7 @@ blueLine = do
     
 pause :: IO ()
 pause = do
-    threadDelay 100000
+    threadDelay 50000
 
     
 frameOne :: IO ()
