@@ -12,6 +12,22 @@ screenSet = do
     clearFromCursorToScreenBeginning
     setCursorPosition 0 0
     
+blue :: IO ()
+blue = do
+    setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
+    
+cyan :: IO ()
+cyan = do
+    setSGR [SetColor Foreground Vivid Cyan]
+    setSGR [SetColor Background Vivid Blue]
+    
+red :: IO ()
+red = do
+    setSGR [SetColor Foreground Vivid Red]
+    setSGR [SetColor Background Vivid Blue]
+    
+    
 pause :: IO ()
 pause = do
     threadDelay 1000000
@@ -19,48 +35,60 @@ pause = do
 frameOne :: IO ()
 frameOne = do
  --one
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
   --two  
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    blue
     putStr "&&&&&&"
-    
-    setSGR [SetColor Foreground Vivid Cyan]
-    setSGR [SetColor Background Vivid Blue]
+    cyan
     putStr " ... "
-     
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --three
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    blue
     putStr "&&&&&&"
     
-    setSGR [SetColor Foreground Vivid Cyan]
-    setSGR [SetColor Background Vivid Blue]
+    cyan
     putStr "....."
     
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --four
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    blue
     putStr "&&&&&&"
     
-    setSGR [SetColor Foreground Vivid Cyan]
-    setSGR [SetColor Background Vivid Blue]
+    cyan
     putStr " ... "
     
-    setSGR [SetColor Foreground Vivid Blue]
-    setSGR [SetColor Background Vivid Blue]
+    blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--six
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--seven
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--eight
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--nine
+    blue
+    putStr "&&&&&&&&&&&&&&&&&&&"
+    yellow
+    putStr "\\"
+    blue
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 
     
