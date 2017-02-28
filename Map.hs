@@ -21,8 +21,8 @@ let list = ['_','_','_','_','_','_','_','_',
            '_','_','_','_','_','_','_','_',
            '_','_','_','_','_','_','_','_']
                                           
-up :: [Char] -> Int -> [Char]
-up x n = drop n x
+--up :: [Char] -> Int -> [Char]
+--up x n = drop n x
 
 down :: [Char] -> Int -> [Char]
 down x n = [new_element : x | x <- [0..n]]
@@ -30,6 +30,7 @@ down x n = [new_element : x | x <- [0..n]]
 
 
 main = do
-  down list 8
+  --up list 8
+  drop 8 list
   print list !! 5
   
