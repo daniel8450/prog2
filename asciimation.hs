@@ -584,7 +584,7 @@ frameFive = do
     blueLine
 --eight
     blue
-    putStr "&&&&&&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&"
     cyan
     putStr "..."
     blue
@@ -597,7 +597,7 @@ frameFive = do
     red
     putStr "II"
     blue
-    putStr "&&&&"
+    putStr "&&&&&"
     cyan
     putStr "....."
     blue
