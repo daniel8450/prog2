@@ -51,7 +51,7 @@ frameOne = do
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
-    
+
     
 --five
     setSGR [SetColor Foreground Vivid Red]
@@ -84,7 +84,8 @@ frameOne = do
     setSGR [SetColor Background Vivid Red]
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
-
+    
+setSGR[Reset]
     
 frameTwo :: IO ()
 frameTwo = do
@@ -160,16 +161,16 @@ frameTwo = do
     setSGR [SetColor Background Vivid Cyan]
     putStrLn "&&&&&&&&&&&&&&&&"
     stop
+    
+setSGR[Reset]
 
 loop :: IO ()
 loop = do
     frameOne
     pause
-    clearFromCursorToScreenEnd
     clearFromCursorToScreenBeginning
     frameTwo
     pause
-    clearFromCursorToScreenEnd
     clearFromCursorToScreenBeginning
     loop
     
