@@ -164,6 +164,7 @@ frameTwo = do
 loop :: IO ()
 loop = do
     frameOne
+    stop
     clearFromCursorToScreenBeginning
     pause
     frameTwo
