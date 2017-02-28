@@ -22,7 +22,11 @@ list =          ['_','_','_','_','_','_','_','_',
                  
               
 printIt :: [Char] -> IO ()
-printIt (x:xs) = print (take 8 x) : printIt xs
+printIt x = do
+        print (take 8 x)
+        print (take 8 x)
+        print (take 8 x)
+        print (take 8 x)
                                                   
 up :: [Char] -> Int -> [Char]
 up x n = drop n x
