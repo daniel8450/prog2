@@ -1998,11 +1998,7 @@ frameSixteen = do
     red
     putStr "III"
     blue
-    putStr "&&&&&"
-    cyan
-    putStr "..."
-    blue
-    putStrLn "&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&"
     stop
 --eleven
     blue
