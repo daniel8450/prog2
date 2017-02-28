@@ -92,14 +92,16 @@ frameOne = do
     stop
 --ten
     blue
-    putStr "&&"
+    putStr "&&&"
     red
     putStr "\\" 
     blue
     putStr"&&&&&&"
     red
     putStr"\\\\"
-
+    blue
+    putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
     
 loop :: IO ()
 loop = do
