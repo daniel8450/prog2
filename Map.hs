@@ -42,8 +42,24 @@ rowSixteen =      ['_','_','_','_','_','_','_','_']
 
         
               
---printIt :: [Char] -> IO ()
---printIt (x:xs) = do
+printMap :: IO ()
+printMap = do
+        print rowOne
+        print rowTwo
+        print rowThree
+        print rowFour
+        print rowFive
+        print rowSix
+        print rowSeven
+        print rowEight
+        print rowNine
+        print rowTen
+        print rowEleven
+        print rowTwelve
+        print rowThirteen
+        print rowFourteen
+        print rowFifteen
+        print rowSixteen
 
 
        
@@ -62,8 +78,7 @@ up x n = do
 main = do
      --let x = (up rowOne 8)
      -- print x
-      print rowOne
-      print rowTwo
+      printMap
 
  
      
