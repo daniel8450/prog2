@@ -3,7 +3,7 @@ import Control.Concurrent
 
 stop :: IO ()
 stop = do
-   -- setSGR[Reset]
+    setSGR[Reset]
     clearFromCursorToScreenEnd
     
 pause :: IO ()
