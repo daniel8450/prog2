@@ -20,14 +20,14 @@ list = ['_','_','_','_','_','_','_','_',
            '_','_','_','_','_','_','_','_',
            '_','_','_','_','_','_','_','_']
                                           
-up :: [Char] -> Integer -> [Char]
+up :: [Char] -> Int -> [Char]
 up x n = drop n x
 
 --down :: [Char] -> Int -> [Char]
 --down x n = [new_element : x | x <- [0..n]]
 
 main = do
-     up (list 8)
+     up list 8
      print (list !! 5)
  
      
