@@ -82,7 +82,8 @@ main = do
      -- print x
       printMap
       let y = ind rowTwo 8
-      print y
+      let z = y + 10
+      print z
 
  
      
