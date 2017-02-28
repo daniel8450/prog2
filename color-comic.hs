@@ -159,7 +159,7 @@ frameTwo = do
   
 main = do
     frameOne
-    clearLine
+    clearScreenCode
     frameTwo
 
 
