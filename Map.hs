@@ -31,7 +31,7 @@ list =          ['_','_','_','_','_','_','_','_', '\r',
 up :: [Char] -> Int -> [Char]
 up x n = do
         drop n x
-        x ++ [new_element]
+        [x ++ ['_'] | x <- [0..8]]
         
 
 --down :: [Char] -> Int -> [Char]
