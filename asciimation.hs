@@ -38,12 +38,12 @@ frameOne = do
     
 loop :: IO ()
 loop = do
-    screenSet
+    --screenSet
     frameOne
-    pause
-    screenSet
-    frameTwo
-    pause
-    loop
+    --pause
+    --screenSet
+    --frameTwo
+    --pause
+   -- loop
   
 main = loop
