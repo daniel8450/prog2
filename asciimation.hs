@@ -718,7 +718,7 @@ frameSix = do
     cyan
     putStr "....."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --seven
     blue
@@ -728,6 +728,138 @@ frameSix = do
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
+--eight
+    blueLine
+    
+--nine
+    blue
+    putStr "&&&&&&&&&&&&&&&&&&&"
+    red
+    putStr "II"
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--ten
+    blue
+    putStr "&&&&&&&&&&"
+    red
+    putStr "II" 
+    blue
+    putStr "&&&&&&&"
+    red
+    putStr "III"
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--eleven
+    blue
+    putStr "&&&&&&&&&&"
+    red
+    putStr "III ---''IIII'''-."
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+    --twelve
+    blue
+    putStr "&&&&&&&&&&"
+    red
+    putStr "IIII"
+    blue
+    putStr "&&&&&&&&&&&&"
+    red
+    putStr "o"
+    blue
+    putStr "&"
+    red
+    putStr "\\"
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+    --thirteen
+    blue
+    putStr "&&&&&&&&&&"
+    red
+    putStr "IIII"
+    blue
+    putStr "&&&&&&"
+    red
+    putStr ") )"
+    blue
+    putStr "&&&&&&"
+    red
+    putStr "\\"
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+    --fourteen
+    blue
+    putStr "&&&&&&&&&&"
+    red
+    putStr "III"
+    blue
+    putStr "&"
+    red
+    putStr "--.....III......O"
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+    --fifteen
+    blue
+    putStr "&&&&&&&&&&"
+    red
+    putStr "II"
+    blue
+    putStr "&&&&&&&&&"
+    red
+    putStr "II"
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+    blueLine
+    blueLine
+    blueLine
+    blueLine
+    blueLine
+    blueLine
+    blueLine
+    blueLine
+    blueLine
+    blueLine
+ -- =================================================================================================================================
+frameSeven :: IO ()
+frameSeven = do
+ --one
+    blueLine
+  --two  
+    blue
+    putStr "&&&&&&&&&&&&&&&&&&&"
+    cyan
+    putStr "..."
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--three
+    blue
+    putStr "&&&&&&&&&&&&&&&&&&"
+    cyan
+    putStr "....."
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--four
+    blue
+    putStr "&&&&&&&&&&&&&&&&&&&"
+    cyan
+    putStr "..."
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+--five
+    blueLine
+--six
+    blueLine
+--seven
+    blueLine
 --eight
     blueLine
     
@@ -846,9 +978,9 @@ loop = do
     screenSet
     frameSix
     pause
-    --screenSet
-    --frameSeven
-    --pause
+    screenSet
+    frameSeven
+    pause
     --screenSet
     --frameEight
     --pause
