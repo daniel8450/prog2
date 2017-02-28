@@ -30,7 +30,8 @@ let list = ['_','_','_','_','_','_','_','_',
 
 
 main = do
+     drop 8 list
+     print (list !! 5)
   --up list 8
-  drop 8 list
-  print list !! 5
+     
   
