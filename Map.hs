@@ -43,7 +43,7 @@ indexTest x n = if x !! n == '*' then True
               else False
 
 ind :: [Char] -> Int -> Int
-ind x n = if indexTest x == True then n
+ind x n = if indexTest x n == True then n
         else n - 1
 
         
@@ -85,8 +85,8 @@ main = do
      --let x = (up rowOne 8)
      -- print x
       printMap
-      let y = indexTest rowTwo 8
-      let z = ind y 8
+  
+      let z = ind rowTwo 8
       print z
 
  
