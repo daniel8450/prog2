@@ -232,27 +232,27 @@ frameTwo = do
     stop
 --five
     blue
-    putStr "&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&"
     cyan
     putStr "..."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --six
     blue
-    putStr "&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&"
     cyan
     putStr "....."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --seven
     blue
-    putStr "&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&"
     cyan
     putStr "..."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --eight
     blue
