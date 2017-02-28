@@ -32,14 +32,10 @@ blueLine = do
       blue
       putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
       stop
-      
-pauseIt :: IO ()
-pauseIt = do
-    threadDelay 1000000
     
 pause :: IO ()
 pause = do
-    threadDelay 67000
+    threadDelay 142857
 
     
 frameOne :: IO ()
@@ -1950,9 +1946,9 @@ frameFifteen= do
     blueLine
     blueLine
     blueLine
-    
-frames :: IO ()
-frames = do
+
+loop :: IO ()
+loop = do
     screenSet
     frameOne
     pause
@@ -1998,12 +1994,6 @@ frames = do
     screenSet
     frameFifteen
     pause
-
-
-loop :: IO ()
-loop = do
-    frames
-    pauseIt
     loop
   
 main = loop
