@@ -40,7 +40,7 @@ up x n = do
 
 main = do
      let x = (up list 8)
-     print (x ++ "/n")
+     print (x filter [0..8])
 
  
      
