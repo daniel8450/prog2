@@ -39,7 +39,7 @@ y = 0
 index :: [Char] -> Int
 index x | (x !! n) == '*' = n
         | otherwise       = 0
-        where n <- [0..8]
+        where n = n + 1
         
               
 --printIt :: [Char] -> IO ()
