@@ -714,11 +714,11 @@ frameSix = do
     stop
 --six
     blue
-    putStr "&&&&&&&&&&&&&&&&&&&&&&"
+    putStr "&&&&&&&&&&&&&&&&&&&&&"
     cyan
     putStr "....."
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --seven
     blue
