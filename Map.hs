@@ -5,7 +5,7 @@ import Data.List
 rowOne :: [Char]
 rowOne =          ['_','_','_','_','_','_','_','_'] 
 rowTwo :: [Char]
-rowTwo =          ['_','_','_','_','_','*','_','_'] 
+rowTwo =          ['1','2','3','_','_','*','_','_'] 
 rowThree :: [Char]
 rowThree =        ['_','_','_','_','_','_','_','_'] 
 rowFour :: [Char]
@@ -86,7 +86,7 @@ main = do
      -- print x
       printMap
       putStrLn "============================"
-      let y = up rowOne 8
+      let y = up rowOne 4
       printMap
 
  
