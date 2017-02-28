@@ -572,6 +572,9 @@ loop = do
     screenSet
     frameThree
     pause
+    screenSet
+    frameFour
+    pause
     loop
   
 main = loop
