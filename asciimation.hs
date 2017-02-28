@@ -7,6 +7,11 @@ stop = do
     setSGR[Reset]
     clearFromCursorToScreenEnd
     
+screenSet :: IO ()
+screenSet = do
+    clearFromCursorToScreenBeginning
+    setCursorPosition 0 0
+    
 pause :: IO ()
 pause = do
     threadDelay 1000000
@@ -14,90 +19,21 @@ pause = do
 frameOne :: IO ()
 frameOne = do
 --one
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&&&&&&&&&&&&&&"
+    setSGR [SetColor Foreground Vivid Blue]
+    setSGR [SetColor Background Vivid Blue]
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
     
---two
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&&&&&&&&&&&&&&"
-    stop
-   
---three
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStr "&&&"
-   
-    setSGR [SetColor Foreground Vivid Cyan]
-    setSGR [SetColor Background Vivid Cyan]
-    putStr "&&"
-    
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStr "&&&&&&"
-    
-    setSGR [SetColor Foreground Vivid Cyan]
-    setSGR [SetColor Background Vivid Cyan]
-    putStr "&&"
-    
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&"
-    stop
-    
---four
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&&&&&&&&&&&&&&"
-    stop
 
-    
---five
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&&&&&&&&&&&&&&"
-    stop
-
---six
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStr "&&&&"
-    setSGR [SetColor Foreground Vivid Cyan]
-    setSGR [SetColor Background Vivid Cyan]
-    putStr "&&&&&&&&"
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&&"
-    stop
-  
-    
---seven
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&&&&&&&&&&&&&&"
-    stop
-   
-  
---eight
-    setSGR [SetColor Foreground Vivid Red]
-    setSGR [SetColor Background Vivid Red]
-    putStrLn "&&&&&&&&&&&&&&&&"
-    stop
     
 loop :: IO ()
 loop = do
-    clearFromCursorToScreenBeginning
-    setCursorPosition 0 0
+    screenSet
     frameOne
     pause
-    clearFromCursorToScreenBeginning
-    setCursorPosition 0 0
+    screenSet
     frameTwo
     pause
-    clearFromCursorToScreenBeginning
-    setCursorPosition 0 0
     loop
   
 main = loop
