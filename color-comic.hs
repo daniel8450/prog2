@@ -1,9 +1,14 @@
 import System.Console.ANSI
+import Control.Concurrent
 
 stop :: IO ()
 stop = do
     setSGR[Reset]
     clearFromCursorToScreenEnd
+    
+pause :: IO ()
+pause = do
+    threadDelay 1000
     
 frameOne :: IO ()
 frameOne = do
