@@ -38,7 +38,7 @@ pause = do
 
     
 frameOne :: IO ()
-frameOne = 
+frameOne = do
  --one
     blueLine
   --two  
