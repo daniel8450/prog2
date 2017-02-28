@@ -25,8 +25,7 @@ printIt :: [Char] -> IO ()
 printIt (x:xs) = do
         print (take 8 x)
         print (take 8 xs)
-        print (take 8 xs)
-        print (take 8 xs)
+
                                                   
 up :: [Char] -> Int -> [Char]
 up x n = drop n x
