@@ -22,7 +22,7 @@ list =          ['_','_','_','_','_','_','_','_',
                  
                  
 printIt :: [Char] -> Int -> [Char]
-printIt x n = [print (take n x) | n <- [0..8]]
+printIt x n = print (take n x)
                                           
 up :: [Char] -> Int -> [Char]
 up x n = drop n x
@@ -31,9 +31,9 @@ up x n = drop n x
 --down x n = [new_element : x | x <- [0..n]]
 
 main = do
-     --let x = (up list 8)
+     let x = (up list 8)
      --print x
-     printIt ((up list 8) 8)
+     printIt (x 8)
  
      
   
