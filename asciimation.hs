@@ -2549,12 +2549,6 @@ frameTwenty = do
     blueLine
     blueLine
     
-looping :: Int
-looping = 0
-
-addOne :: Int -> Int
-addOne x = x + 1
-
 loop :: IO ()
 loop = do
     screenSet
