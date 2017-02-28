@@ -8,7 +8,7 @@ stop = do
 
 stopIt :: IO ()
     setSGR[Reset]
-    putStr " "
+    putStr "_"
     
 pause :: IO ()
 pause = do
