@@ -1,6 +1,6 @@
 --module Map
   --where
-import Data.List
+--import Data.List
 
 rowOne :: [Char]
 rowOne =          ['_','_','_','_','_','_','_','_'] 
