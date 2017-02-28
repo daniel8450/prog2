@@ -48,6 +48,22 @@ ind x n = if indexTest x n == True then n
 
         
               
+
+
+
+       
+
+                                                  
+up :: [Char] -> Int -> [Char]
+up x n = do
+        drop n x
+      --  x ++ ['_']
+
+        
+
+--down :: [Char] -> Int -> [Char]
+--down x n = [new_element : x | x <- [0..n]]
+
 printMap :: IO ()
 printMap = do
         print rowOne
@@ -66,20 +82,6 @@ printMap = do
         print rowFourteen
         print rowFifteen
         print rowSixteen
-
-
-       
-
-                                                  
-up :: [Char] -> Int -> [Char]
-up x n = do
-        drop n x
-      --  x ++ ['_']
-
-        
-
---down :: [Char] -> Int -> [Char]
---down x n = [new_element : x | x <- [0..n]]
 
 main = do
      --let x = (up rowOne 8)
