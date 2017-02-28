@@ -86,7 +86,7 @@ main = do
      -- print x
       printMap
       putStrLn "============================"
-      let y = up rowTwo 8
+      let y = up rowOne 8
       printMap
 
  
