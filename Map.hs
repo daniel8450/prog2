@@ -32,7 +32,7 @@ up x n = drop n x
 
 main = do
      let x = (up list 8)
-     let xs = (printIt 8)
+     let xs = (printIt x 8)
      --print x
      print xs
  
