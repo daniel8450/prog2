@@ -173,9 +173,6 @@ loop = do
     clearFromCursorToScreenBeginning
     setCursorPosition 0 0
     loop
-    
-    
-   
   
 main = loop
     
