@@ -36,11 +36,9 @@ rowSixteen :: [Char]
 rowSixteen =      ['_','_','_','_','_','_','_','_'] 
 
 
-index :: [Char] -> Int
-index x | (x !! n) == '*' = n
-        | n = n + 1
-        | n <= 8
-        | otherwise       = 0
+--index :: [Char] -> Int
+--index x | (x !! n) == '*' = n
+
 
         
               
@@ -63,8 +61,9 @@ up x n = do
 
 main = do
      let x = (up rowTwo 8)
-     let z = index rowTwo
-     print z
+      print rowTwo
+      print rowOne
+      print rowThree
 
  
      
