@@ -100,7 +100,13 @@ frameOne = do
     blue
     putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
-    
+--eleven
+    red
+    putStr "IIII ---"""IIII"""-."
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+
 loop :: IO ()
 loop = do
     screenSet
