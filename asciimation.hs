@@ -88,7 +88,7 @@ frameOne = do
     red
     putStr "II"
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --ten
     red
@@ -98,7 +98,7 @@ frameOne = do
     red
     putStr "III"
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 --eleven
     red
@@ -132,7 +132,17 @@ frameOne = do
     red
     putStr "\\"
     blue
-    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
+    stop
+    --fourteen
+    red
+    putStr "IIII"
+    blue
+    putStr "&"
+    red
+    putStr "--.....III......O"
+    blue
+    putStrLn "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
 
 loop :: IO ()
