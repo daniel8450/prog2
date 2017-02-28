@@ -86,7 +86,7 @@ frameOne = do
     blue
     putStr "&&&&&&&&&&&&&&&&&&&"
     red
-    putStr 64
+    putStr "//"
     blue
     putStr "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&"
     stop
